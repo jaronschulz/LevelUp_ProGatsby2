@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Jaron Blog`,
     description: `My test Blog`,
-    author: `@gatsbyjs`,
+    author: `JzS`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +27,15 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/posts`,
+        name: 'posts',
+      },
+    },
+    'gatsby-transformer-remark',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
