@@ -44,7 +44,7 @@ const Layout = ({ children }) => (
           </footer>
         </div>
         <Archive />
-      </>
+       </>
     )}
   />
 )
