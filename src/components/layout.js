@@ -62,9 +62,6 @@ const Layout = ({ children, location }) => (
             </div>
           )}
         </Spring>
-        {/* {location.pathname === '/' && (
-          
-        )} */}
         <MainLayout>
           <div>{children}</div>
           <Archive />
