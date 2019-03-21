@@ -7,13 +7,12 @@ const Team = () => (
     <div>
       <h1>The Team</h1>
       <p>
-        Polaroid cornhole franzen hammock jianbing shaman put a bird on it
-        chambray tumblr, poutine meh. Brooklyn roof party yuccie, banjo shaman
-        deep v copper mug twee af. Wayfarers pop-up vice fanny pack migas
-        chillwave hoodie ethical prism organic sartorial pug. Vinyl woke etsy
-        austin salvia mumblecore pickled whatever paleo 90's unicorn. Migas
-        butcher brunch heirloom, craft beer succulents taiyaki umami
-        single-origin coffee ramps lyft.
+        Lorem ipsum dolor amet disrupt shabby chic sriracha forage yr green
+        juice kinfolk ennui taxidermy godard mlkshk affogato art party 8-bit
+        cornhole. Thundercats before they sold out asymmetrical next level
+        disrupt pok pok readymade pabst. Tousled poutine tote bag, kickstarter
+        mlkshk pickled kitsch. Fam ramps literally, kinfolk humblebrag taiyaki
+        letterpress locavore food truck keytar +1 sriracha yr keffiyeh.
       </p>
     </div>
   </Layout>
