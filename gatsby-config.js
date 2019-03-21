@@ -8,6 +8,7 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    'gatsby-image',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
