@@ -54,9 +54,4 @@ const Archive = () => (
   />
 )
 
-
-Layout.defaultProps = {
-  allMarkdownRemark: {},
-}
-
 export default Archive
